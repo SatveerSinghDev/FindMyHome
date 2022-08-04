@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.findmyhome">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HouseRentalManagement">
+        <activity
+            android:name=".houseOwner.UpdateMember"
+            android:exported="false" />
+        <activity
+            android:name=".houseOwner.UpdateHouse"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAstRLiJWR9LOpxICg2CdXkGFbTZSV41BA" />
+
+        <activity
+            android:name="com.example.findmyhome.user.ViewLocation"
+            android:exported="true" />
+        <activity
+            android:name="com.example.findmyhome.user.ViewMembers"
+            android:exported="true" />
+        <activity
+            android:name="com.example.findmyhome.user.HouseDetails"
+            android:exported="true" />
+        <activity
+            android:name=".houseOwner.HouseDetails"
+            android:exported="true" />
+        <activity
+            android:name=".houseOwner.ViewLocation"
+            android:exported="true" />
+        <activity
+            android:name=".houseOwner.ViewMembers"
+            android:exported="true" />
+        <activity
+            android:name=".houseOwner.AddMember"
+            android:exported="true" />
+        <activity
+            android:name=".houseOwner.SeeHouse"
+            android:exported="true" />
+        <activity
+            android:name=".houseOwner.AddHouse"
+            android:exported="true" />
+        <activity
+            android:name=".houseOwner.DashboardOwner"
+            android:exported="true" />
+        <activity
+            android:name="com.example.findmyhome.user.DashboardUser"
+            android:exported="true" />
+        <activity
+            android:name="com.example.findmyhome.user.ResetPasswordUser"
+            android:exported="true" />
+        <activity
+            android:name="com.example.findmyhome.user.LoginUser"
+            android:exported="true" />
+        <activity
+            android:name=".houseOwner.LoginOwner"
+            android:exported="true" />
+        <activity
+            android:name="com.example.findmyhome.user.RegisterUser"
+            android:exported="true" />
+        <activity
+            android:name=".houseOwner.ResetPasswordOwenr"
+            android:exported="true" />
+        <activity
+            android:name=".houseOwner.RegisterOwner"
+            android:exported="true" />
+        <activity
+            android:name="com.example.findmyhome.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

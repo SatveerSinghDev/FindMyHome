@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../FindmyHome/app/src/main/res/layout/activity_add_house.xml" value="0.21481481481481482" />
+        <entry key="../FindmyHome/app/src/main/res/layout/activity_add_member.xml" value="0.2949438202247191" />
+        <entry key="../FindmyHome/app/src/main/res/layout/activity_dashboard_owner.xml" value="0.1" />
+        <entry key="../FindmyHome/app/src/main/res/layout/activity_dashboard_user.xml" value="0.25059665871121717" />
+        <entry key="../FindmyHome/app/src/main/res/layout/activity_house_details.xml" value="0.21481481481481482" />
+        <entry key="../FindmyHome/app/src/main/res/layout/activity_house_details2.xml" value="0.21481481481481482" />
+        <entry key="../FindmyHome/app/src/main/res/layout/activity_register_owner.xml" value="0.1" />
+        <entry key="../FindmyHome/app/src/main/res/layout/activity_see_house.xml" value="0.21481481481481482" />
+        <entry key="../FindmyHome/app/src/main/res/layout/activity_update_house.xml" value="0.4036458333333333" />
+        <entry key="../FindmyHome/app/src/main/res/layout/activity_update_member.xml" value="0.26717557251908397" />
+        <entry key="../FindmyHome/app/src/main/res/layout/activity_view_members.xml" value="0.203125" />
+        <entry key="../FindmyHome/app/src/main/res/layout/activity_view_members2.xml" value="0.21481481481481482" />
+        <entry key="../FindmyHome/app/src/main/res/layout/seehouse.xml" value="0.33" />
+        <entry key="../FindmyHome/app/src/main/res/layout/seehouse2.xml" value="0.4036458333333333" />
+        <entry key="../FindmyHome/app/src/main/res/layout/seemember.xml" value="0.3125" />
+        <entry key="../FindmyHome/app/src/main/res/layout/seemember2.xml" value="0.25609756097560976" />
+        <entry key="../FindmyHome/app/src/main/res/layout/updatehouse.xml" value="0.40260416666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HouseRentalManagement/app/src/main/res/drawable-v24/bg_rounded_input_field.xml" value="0.26481481481481484" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HouseRentalManagement/app/src/main/res/layout/activity_add_house.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HouseRentalManagement/app/src/main/res/layout/activity_add_member.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HouseRentalManagement/app/src/main/res/layout/activity_dashboard_owner.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HouseRentalManagement/app/src/main/res/layout/activity_dashboard_user.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HouseRentalManagement/app/src/main/res/layout/activity_house_details.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HouseRentalManagement/app/src/main/res/layout/activity_house_details2.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HouseRentalManagement/app/src/main/res/layout/activity_login_owner.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HouseRentalManagement/app/src/main/res/layout/activity_login_user.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HouseRentalManagement/app/src/main/res/layout/activity_main.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HouseRentalManagement/app/src/main/res/layout/activity_register_owner.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HouseRentalManagement/app/src/main/res/layout/activity_register_user.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HouseRentalManagement/app/src/main/res/layout/activity_reset_password_owenr.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HouseRentalManagement/app/src/main/res/layout/activity_reset_password_user.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HouseRentalManagement/app/src/main/res/layout/activity_see_house.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HouseRentalManagement/app/src/main/res/layout/activity_view_location.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HouseRentalManagement/app/src/main/res/layout/activity_view_location2.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HouseRentalManagement/app/src/main/res/layout/activity_view_members.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HouseRentalManagement/app/src/main/res/layout/activity_view_members2.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HouseRentalManagement/app/src/main/res/layout/seehouse.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HouseRentalManagement/app/src/main/res/layout/seemember.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/drawable-v24/bg_rounded_input_field.xml" value="0.177" />
+        <entry key="app/src/main/res/layout/activity_add_house.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_add_member.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_dashboard_owner.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_dashboard_user.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_house_details.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_house_details2.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_login_owner.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_login_user.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_register_owner.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_register_user.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_reset_password_owenr.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_reset_password_user.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_see_house.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_view_bookings.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_view_location.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_view_location2.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_view_members.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/activity_view_members2.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/seebokings.xml" value="0.40260416666666665" />
+        <entry key="app/src/main/res/layout/seehouse.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/seemember.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

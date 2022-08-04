@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1064657716301",
+    "project_id": "findmyhome-7165a",
+    "storage_bucket": "findmyhome-7165a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064657716301:android:79f92efa97f4975fd48804",
+        "android_client_info": {
+          "package_name": "com.example.findmyhome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064657716301-8vtekisg7usjrkc08f012o2g5a7kovdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe__5qU9RqZJH5vUN5D_kgzIj0wZuGMOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1064657716301-8vtekisg7usjrkc08f012o2g5a7kovdr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064657716301:android:2f1a9222dbd9fa04d48804",
+        "android_client_info": {
+          "package_name": "com.example.houserentalmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064657716301-8vtekisg7usjrkc08f012o2g5a7kovdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe__5qU9RqZJH5vUN5D_kgzIj0wZuGMOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1064657716301-8vtekisg7usjrkc08f012o2g5a7kovdr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
