@@ -126,7 +126,7 @@ public class LoginUser extends AppCompatActivity {
     }
 
     private void sendUserToMainActivity() {
-        Intent intent = new Intent(LoginUser.this, DashboardUser.class);
+        Intent intent = new Intent(LoginUser.this, UserHome.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
 

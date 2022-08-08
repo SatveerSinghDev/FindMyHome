@@ -16,8 +16,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HouseRentalManagement">
         <activity
-            android:name=".houseOwner.UpdateMember"
+            android:name=".user.UserHome"
             android:exported="false" />
+        <activity
+            android:name=".user.TenantBookingList"
+            android:exported="true" />
+        <activity
+            android:name=".houseOwner.SeeBookings"
+            android:exported="true" />
+        <activity
+            android:name=".houseOwner.UpdateMember"
+            android:exported="true" />
         <activity
             android:name=".houseOwner.UpdateHouse"
             android:exported="true" />
@@ -27,13 +36,13 @@
             android:value="AIzaSyAstRLiJWR9LOpxICg2CdXkGFbTZSV41BA" />
 
         <activity
-            android:name="com.example.findmyhome.user.ViewLocation"
+            android:name=".user.ViewLocation"
             android:exported="true" />
         <activity
-            android:name="com.example.findmyhome.user.ViewMembers"
+            android:name=".user.ViewMembers"
             android:exported="true" />
         <activity
-            android:name="com.example.findmyhome.user.HouseDetails"
+            android:name=".user.HouseDetails"
             android:exported="true" />
         <activity
             android:name=".houseOwner.HouseDetails"
@@ -57,19 +66,19 @@
             android:name=".houseOwner.DashboardOwner"
             android:exported="true" />
         <activity
-            android:name="com.example.findmyhome.user.DashboardUser"
+            android:name=".user.DashboardUser"
             android:exported="true" />
         <activity
-            android:name="com.example.findmyhome.user.ResetPasswordUser"
+            android:name=".user.ResetPasswordUser"
             android:exported="true" />
         <activity
-            android:name="com.example.findmyhome.user.LoginUser"
+            android:name=".user.LoginUser"
             android:exported="true" />
         <activity
             android:name=".houseOwner.LoginOwner"
             android:exported="true" />
         <activity
-            android:name="com.example.findmyhome.user.RegisterUser"
+            android:name=".user.RegisterUser"
             android:exported="true" />
         <activity
             android:name=".houseOwner.ResetPasswordOwenr"

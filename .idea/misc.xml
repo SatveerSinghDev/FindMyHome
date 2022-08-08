@@ -5,16 +5,21 @@
       <map>
         <entry key="../FindmyHome/app/src/main/res/layout/activity_add_house.xml" value="0.21481481481481482" />
         <entry key="../FindmyHome/app/src/main/res/layout/activity_add_member.xml" value="0.2949438202247191" />
-        <entry key="../FindmyHome/app/src/main/res/layout/activity_dashboard_owner.xml" value="0.1" />
+        <entry key="../FindmyHome/app/src/main/res/layout/activity_dashboard_owner.xml" value="0.33" />
         <entry key="../FindmyHome/app/src/main/res/layout/activity_dashboard_user.xml" value="0.25059665871121717" />
         <entry key="../FindmyHome/app/src/main/res/layout/activity_house_details.xml" value="0.21481481481481482" />
         <entry key="../FindmyHome/app/src/main/res/layout/activity_house_details2.xml" value="0.21481481481481482" />
         <entry key="../FindmyHome/app/src/main/res/layout/activity_register_owner.xml" value="0.1" />
+        <entry key="../FindmyHome/app/src/main/res/layout/activity_see_bookings.xml" value="0.4036458333333333" />
         <entry key="../FindmyHome/app/src/main/res/layout/activity_see_house.xml" value="0.21481481481481482" />
+        <entry key="../FindmyHome/app/src/main/res/layout/activity_tenant_booking_list.xml" value="0.38958333333333334" />
         <entry key="../FindmyHome/app/src/main/res/layout/activity_update_house.xml" value="0.4036458333333333" />
         <entry key="../FindmyHome/app/src/main/res/layout/activity_update_member.xml" value="0.26717557251908397" />
+        <entry key="../FindmyHome/app/src/main/res/layout/activity_user_home.xml" value="0.4036458333333333" />
         <entry key="../FindmyHome/app/src/main/res/layout/activity_view_members.xml" value="0.203125" />
         <entry key="../FindmyHome/app/src/main/res/layout/activity_view_members2.xml" value="0.21481481481481482" />
+        <entry key="../FindmyHome/app/src/main/res/layout/bookinglist.xml" value="0.4036458333333333" />
+        <entry key="../FindmyHome/app/src/main/res/layout/bookinglisttenant.xml" value="0.40260416666666665" />
         <entry key="../FindmyHome/app/src/main/res/layout/seehouse.xml" value="0.33" />
         <entry key="../FindmyHome/app/src/main/res/layout/seehouse2.xml" value="0.4036458333333333" />
         <entry key="../FindmyHome/app/src/main/res/layout/seemember.xml" value="0.3125" />

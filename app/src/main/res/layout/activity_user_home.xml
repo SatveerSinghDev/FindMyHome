@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".houseOwner.DashboardOwner">
+    tools:context=".user.UserHome">
 
     <ImageView
         android:layout_width="match_parent"
@@ -20,43 +21,23 @@
         android:gravity="center"
         android:orientation="vertical">
 
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/Oname"
-            android:textColor="@color/black"
-            android:textSize="30sp"
-            />
         <Button
-            android:id="@+id/btn_seeHouse"
+            android:id="@+id/btn_UseeHouse"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/Oname"
             android:layout_gravity="bottom"
             android:background="@drawable/bg_rounded_input_field"
-            android:text="See your Rental Property"
+            android:text="See All Rental Property"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="16sp" />
 
+
         <Button
-            android:id="@+id/btn_addHouse"
+            android:id="@+id/btn_Useebookings"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/btn_user"
-            android:layout_gravity="bottom"
-            android:layout_marginTop="50dp"
-            android:background="@drawable/bg_rounded_input_field"
-            android:text="Add a Rental House"
-            android:textAllCaps="false"
-            android:textColor="@color/white"
-            android:textSize="16sp" />
-        <Button
-            android:id="@+id/btn_seebookings"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/btn_user"
+            android:layout_below="@id/btn_UseeHouse"
             android:layout_gravity="bottom"
             android:layout_marginTop="50dp"
             android:background="@drawable/bg_rounded_input_field"
@@ -66,10 +47,10 @@
             android:textSize="16sp" />
 
         <Button
-            android:id="@+id/btn_Ologout"
+            android:id="@+id/btn_Ulogout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/btn_user"
+            android:layout_below="@id/btn_Useebookings"
             android:layout_gravity="bottom"
             android:layout_marginTop="50dp"
             android:background="@drawable/bg_rounded_input_field"
@@ -77,7 +58,5 @@
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="16sp" />
-
     </LinearLayout>
-
 </RelativeLayout>
