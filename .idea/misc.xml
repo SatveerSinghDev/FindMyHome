@@ -3,15 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="../FindmyHome/app/src/main/res/layout/activity_add_house.xml" value="0.21481481481481482" />
+        <entry key="../FindmyHome/app/src/main/res/layout/activity_add_house.xml" value="0.33" />
         <entry key="../FindmyHome/app/src/main/res/layout/activity_add_member.xml" value="0.2949438202247191" />
         <entry key="../FindmyHome/app/src/main/res/layout/activity_dashboard_owner.xml" value="0.33" />
         <entry key="../FindmyHome/app/src/main/res/layout/activity_dashboard_user.xml" value="0.25059665871121717" />
         <entry key="../FindmyHome/app/src/main/res/layout/activity_house_details.xml" value="0.21481481481481482" />
-        <entry key="../FindmyHome/app/src/main/res/layout/activity_house_details2.xml" value="0.21481481481481482" />
+        <entry key="../FindmyHome/app/src/main/res/layout/activity_house_details2.xml" value="0.2537037037037037" />
+        <entry key="../FindmyHome/app/src/main/res/layout/activity_login_owner.xml" value="0.31574074074074077" />
         <entry key="../FindmyHome/app/src/main/res/layout/activity_register_owner.xml" value="0.1" />
         <entry key="../FindmyHome/app/src/main/res/layout/activity_see_bookings.xml" value="0.4036458333333333" />
-        <entry key="../FindmyHome/app/src/main/res/layout/activity_see_house.xml" value="0.21481481481481482" />
+        <entry key="../FindmyHome/app/src/main/res/layout/activity_see_house.xml" value="0.33" />
         <entry key="../FindmyHome/app/src/main/res/layout/activity_tenant_booking_list.xml" value="0.38958333333333334" />
         <entry key="../FindmyHome/app/src/main/res/layout/activity_update_house.xml" value="0.4036458333333333" />
         <entry key="../FindmyHome/app/src/main/res/layout/activity_update_member.xml" value="0.26717557251908397" />

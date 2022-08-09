@@ -44,7 +44,7 @@ public class HouseDetails extends AppCompatActivity {
         btn_addMember = findViewById(R.id.btn_addMember);
         btn_viewMember = findViewById(R.id.btn_viewMember);
         btn_viewLocation = findViewById(R.id.btn_viewLocation);
-        tv_houseDesc.setText("Number of rooms: "+noOfRoom+"\nRent per room: "+rentPerRoom+"\nLocation: "+houseLocation+"\nDescription: "+houseDescription);
+        tv_houseDesc.setText("Number of rooms: "+noOfRoom+"\nRent per room: $"+rentPerRoom+"\nLocation: "+houseLocation+"\nDescription: "+houseDescription);
         Glide.with(HouseDetails.this).load(houseImage).into(iv_houseImage);
 
         btn_addMember.setOnClickListener(new View.OnClickListener() {

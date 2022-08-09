@@ -20,9 +20,17 @@
         android:layout_marginRight="30dp"
         android:gravity="center"
         android:orientation="vertical">
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Uname"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginBottom="20dp"
+            />
         <Button
             android:id="@+id/btn_UseeHouse"
+            android:layout_below="@id/Uname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"

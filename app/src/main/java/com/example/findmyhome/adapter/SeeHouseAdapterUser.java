@@ -39,7 +39,7 @@ public class SeeHouseAdapterUser extends RecyclerView.Adapter<SeeHouseAdapterUse
         HouseModel model = houseModelArrayList.get(position);
 
         holder.tv_location.setText("Address: "+model.getHouseLocation());
-        holder.tv_rentPerRoom.setText("Rent per room "+model.getRentPerRoom());
+        holder.tv_rentPerRoom.setText("Rent per room $"+model.getRentPerRoom());
         holder.tv_noOfRoom.setText("No. of Rooms: "+model.getNoOfRoom());
         Glide.with(context).load(model.getHouseImage()).into(holder.iv_houseImage);
 

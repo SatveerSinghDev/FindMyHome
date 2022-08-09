@@ -82,6 +82,8 @@ public class HouseDetails extends AppCompatActivity {
 
                         if (task.isSuccessful()) {
                             Toast.makeText(HouseDetails.this, "House Booking request sent successfully", Toast.LENGTH_SHORT).show();
+                            Intent intent1 = new Intent(HouseDetails.this, DashboardUser.class);
+                            startActivity(intent1);
                         } else {
                             Toast.makeText(HouseDetails.this, "Request Failed", Toast.LENGTH_SHORT).show();
                         }
@@ -91,7 +93,7 @@ public class HouseDetails extends AppCompatActivity {
             }
         });
 
-        tv_houseDesc.setText("Number of rooms: "+noOfRoom+"\nRent per room: "+rentPerRoom+"\nLocation: "+houseLocation+"\nDescription: "+houseDescription);
+        tv_houseDesc.setText("Number of rooms: "+noOfRoom+"\nRent per room: $"+rentPerRoom+"\nLocation: "+houseLocation+"\nDescription: "+houseDescription);
         Glide.with(HouseDetails.this).load(houseImage).into(iv_houseImage);
 
         btn_viewLocation.setOnClickListener(new View.OnClickListener() {

@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.example.findmyhome.BookingModel;
 import com.example.findmyhome.R;
+import com.example.findmyhome.houseOwner.AddHouse;
 import com.example.findmyhome.user.HouseDetails;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -49,7 +50,7 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.viewhold
 
         holder.tv_location.setText("Address: " + model.getHouseLocation());
         holder.house_id.setText("House id: " + model.getHouseId());
-        holder.username.setText("Name : " + model.getUser());
+        holder.username.setText("Email : " + model.getUser());
         Glide.with(context).load(model.getHouseImage()).into(holder.iv_houseImage);
 
         holder.reject.setOnClickListener(new View.OnClickListener() {
@@ -81,7 +82,13 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.viewhold
                     public void onComplete(@NonNull Task<Void> task) {
 
                         if (task.isSuccessful()) {
-
+                            FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
+                            String userId = firebaseUser.getUid();
+                            FirebaseDatabase.getInstance().getReference().child("Bookings")
+                                    .child(userId)
+                                    .child(model.getUserid()).removeValue();
+                            bookingModelArrayList.remove(position);
+                            notifyDataSetChanged();
                         } else {
 
                         }
