@@ -69,7 +69,8 @@ public class ViewMembers extends AppCompatActivity {
                         MemberModel article = dataSnapshot.getValue(MemberModel.class);
                         mList.add(article);
                     }
-                   // Log.d("TAG1", "onDataChange: " + mList.get(0).getName());
+                   //
+                    // Log.d("TAG1", "onDataChange: " + mList.get(0).getName());
                     adapter = new SeeMemberAdapterUser(ViewMembers.this, mList);
                     rv_showAllFood.setAdapter(adapter);
                 }
